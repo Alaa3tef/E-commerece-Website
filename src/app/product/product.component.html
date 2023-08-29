@@ -1,0 +1,36 @@
+
+<div class="grid-view" *ngIf="view ==='grid'">
+    <div class="card text-center" >
+        <div class="card-header fw-bold fs-5 text-success">
+            Header
+        </div>
+    
+        <div class="overflow-hidden d-flex justfiy=content-center align-items-center">
+            <img src="../../assets/Images/mobiles/10/1.jpg" alt="" class="card-img-top">
+        </div>
+    
+        <div class="card-body">
+            <h5 class="card-title title"> Title </h5>
+            <h6 class="card-subtitle text-primary my-2">12 Product are available</h6>
+            <p class="card-text description">Description</p>
+        </div>
+    
+        <div class="card-body">
+            <h5 class="card-title text-success"> Final Price
+                <span class="text-primary">-20%</span>
+            </h5>
+            <h6 class="card-subtitle text-danger text-decoration-line-through">Oragnal Price</h6>
+        </div>
+    
+        <div class="card-footer d-grid gap-2">
+     <button type="button" class="btn btn-outline-success" type="button">Add To Card</button>
+        </div>
+    </div>
+</div>
+
+<div class="List-view" *ngIf="view ==='list'">
+
+</div>
+
+
+
